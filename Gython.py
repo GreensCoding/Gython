@@ -315,6 +315,3 @@ def webscrape(url):
   html_content = response.text
   soup = __BeautifulSoup__(html_content, "html.parser")
   return soup.prettify()
-def fork(url):
-  Say("Forking...")
-  __webbrowser__.open(url)
